@@ -1,5 +1,5 @@
 # VIT MAILS SCRAPER
-Finding mails of VIT Students using Selenium to automate MS Teams and Registration Numbers 
+This project automates the extraction of official student email IDs from Microsoft Teams using Selenium. Given a list of student registration numbers or names, the tool logs into Teams (after manual authentication), searches for each entry, identifies the correct student from the People results, and extracts their institutional ID to generate a clean, structured email list. The script is designed to handle variations in Teams’ UI, avoid incorrect matches, and gracefully skip students who are not present on Teams.
 
 ## SetUp Instructions
 1. Install dependandcies <br>
